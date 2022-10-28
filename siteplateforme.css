@@ -236,10 +236,11 @@ nav {
 .video {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin-left: 5%;
     margin-right: 5%;
+    width: 80%;
 }
 
 /* ***************************************
