@@ -90,7 +90,7 @@ nav {
 .accroche {
     display: flex;
     flex-direction: row;
-    background-color: #336699;
+    background-color: #154284;
     font-size: 25px;
     color: #FFFFFF;
 }
@@ -110,15 +110,16 @@ nav {
 }
 
 .illu_accueil {
-    flex-basis: 10%;
+    display: flex;
     width: 50%;
     height: auto;
     position: relative;
+    justify-content: flex-end;
 }
 
 .red_button {
-    border-color: #FF2063;
-    background-color: #FF2063;
+    border-color: #cd122d;
+    background-color: #cd122d;
     font-size: 22px;
 }
 
@@ -241,6 +242,7 @@ nav {
     margin-left: 5%;
     margin-right: 5%;
     width: 80%;
+
 }
 
 /* ***************************************
@@ -327,7 +329,78 @@ footer a {
     align-items: center;
 }
 
+/* Formulaire de contact */
 
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "roboto", sans-serif;
+}
+
+.contact-section{
+    background: url(keyboard.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 40px 0;
+}
+
+.contact-section h1{
+    text-align: center;
+    color: #111;
+}
+
+.border{
+    width: 100px;
+    height: 10px;
+    background: #111;
+    margin: 40px auto;
+}
+
+.contact-form{
+    max-width: 600px;
+    background: #fff;
+    margin: auto;
+    padding: 0 30px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: #111;
+    padding: 20px 40px;
+    outline: none;
+    color: #ddd;
+    transition: 0.5s;
+}
+
+.contact-form-text:hover{
+    box-shadow: 0 0 10px 4px #34495e;
+}
+
+textarea.contact-form-text{
+    resize: none;
+    height: 150px;
+}
+
+.contact-form-btn{
+    float: right;
+    border-radius: 20px;
+    border: 30;
+    background: #111;
+    padding: 20px 40px;
+    color: #fff;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.contact-form-btn:hover{
+    background: #154284;
+}
 
 
 
